@@ -167,10 +167,9 @@
   font-size: 60px;
   font-weight: 600;
   box-sizing: border-box;
-  padding-bottom: 30px;
-  box-sizing: border-box;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   margin-top: 0px;
+  border: 1px solid red;
 }
 
 .section-subtitle {
@@ -178,22 +177,25 @@
   font-size: 24px;
   font-weight: normal;
   box-sizing: border-box;
-  padding-bottom: 60px;
   margin-top: 0px;
-  margin-bottom: 0px;
-
+  margin-bottom: 60px;
+  border: 1px solid red;
 }
 
 .table {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   width: 1100px;
   padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
   box-sizing: border-box;
+  border: 1px solid red;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .table__cell {
@@ -206,21 +208,36 @@
 
 .table__heading {
   display: flex;
-  line-height: 1.15px;
+  /*line-height: 1.15px;*/
   font-size: 24px;
   font-weight: 600;
   box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 1px solid red;
 }
 
 .table__text {
   display: flex;
-  /*line-height: 1.2px;*/
   font-size: 18px;
+  /*line-height: 1.2px;*/
   font-weight: normal;
   box-sizing: border-box;
-
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border: 1px solid red;
 }
 
+.table__textbank {
+  display: flex;
+  font-size: 18px;
+  /*line-height: 1.2px;*/
+  font-weight: normal;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  border: 1px solid red;
+}
 
 .feynman {
   display: flex;
@@ -272,12 +289,34 @@
 
 }
 
-.kaufman {}
+.kaufman {
+  background-color: #1f1f1f;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  z-index: -2;
+}
 
-.footer {}
+.section-title_theme_dark {
+  color: white;
+   margin-bottom: 20px;
+   margin-top: 90px;
+   border: 1px solid red;
+}
 
+.section-subtitle_theme_dark {
+  margin-bottom: 80px;
+  border: 1px solid red;
+  color: white;
+}
 
-
+.table_theme_dark {
+  border: 1px solid red;
+  margin-bottom: 90px;
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -286,3 +325,23 @@
   margin-right: 0;
   margin-top: 80px;
 }
+.table__heading_theme_dark {
+  margin-bottom: 20px;
+  border: 1px solid red;
+}
+.table__text_theme_dark {
+  border: 1px solid red;
+}
+.kaufman__kaufman-triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  right: -210px;
+  z-index: -1;
+}
+
+.footer {}
+
+
+
+
