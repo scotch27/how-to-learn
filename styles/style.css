@@ -312,9 +312,9 @@
 
 .section-title_theme_dark {
   color: white;
-   margin-bottom: 20px;
-   margin-top: 90px;
-   border: 1px solid red;
+  margin-bottom: 20px;
+  margin-top: 90px;
+  border: 1px solid red;
 }
 
 .section-subtitle_theme_dark {
@@ -335,13 +335,16 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
 .table__heading_theme_dark {
   margin-bottom: 20px;
   border: 1px solid red;
 }
+
 .table__text_theme_dark {
   border: 1px solid red;
 }
+
 .kaufman__kaufman-triangle {
   position: absolute;
   width: 877px;
@@ -351,11 +354,41 @@
 }
 
 .footer {
-background-color: black;
+  display: flex;
+  background-color: black;
+  
 }
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+}
+
 .logo_place_footer {
   filter: invert(1);
 }
 
+.footer__author {
+  color: white;
+}
 
+.footer__column_content_info {}
 
+.footer__column-heading {
+  color: white;
+}
+
+.footer__social-icon {}
+
+.social-icon__youtube {}
+
+.social-icon__vk {}
+
+.social-icon__tiktok {}
+
+.footer__column-link {}
