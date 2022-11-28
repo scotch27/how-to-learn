@@ -356,39 +356,119 @@
 .footer {
   display: flex;
   background-color: black;
-  
+  min-height: 350px;
+  border: 1px solid red;
 }
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
   width: 90%;
+  border: 1px solid red;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer__column_content_copyright {
+  display: flex;
   flex-basis: 711px;
+  border: 1px solid red;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .logo_place_footer {
+
   filter: invert(1);
+  border: 1px solid red;
 }
 
 .footer__author {
   color: white;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  border: 1px solid red;
 }
 
-.footer__column_content_info {}
+.footer__column_content_info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  border: 1px solid red;
+}
 
 .footer__column-heading {
+  display: flex;
+  flex-direction: column;
   color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid red;
 }
 
-.footer__social-icon {}
+.list__social {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  border: 1px solid red;
+}
 
-.social-icon__youtube {}
+.footer__social-icon {
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  border: 0px solid red;
+  padding-left: 30px;
+  background-repeat: no-repeat;
+  background-position: 5px 3px;
+  text-decoration: none !important;
+}
 
-.social-icon__vk {}
+.social-icon__youtube {
+  background-image: url(../images/youtube-icon.svg);
+}
 
-.social-icon__tiktok {}
+.social-icon__vk {
+  background-image: url(../images/vk_color_white.svg);
+}
 
-.footer__column-link {}
+.social-icon__tiktok {
+  background-image: url(../images/tiktok-icon.svg);
+}
+
+.footer__column-links {
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.footer__column-link {
+  height: 40px;
+  width: 100%;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  border: 1px solid red;
+  list-style: none;
+}
+
+.footer__column_content_social {
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  border: 1px solid red;
+}
