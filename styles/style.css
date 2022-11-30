@@ -39,13 +39,15 @@
 
 .header__title {
   margin: 0;
-  width: 730px;
+  display: flex;
+  align-self: center;
+  max-width: 730px;
+  width: 100%;
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-  position: absolute;
-  left: 64px;
-  z-index: 1;
+  padding-left: 64px;
+  z-index: 1; 
   box-sizing: border-box;
   color: black;
 }
@@ -55,7 +57,8 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -112,7 +115,8 @@
   margin: 0;
   display: flex;
   justify-content: flex-start;
-  width: 175px;
+  max-width: 175px;
+  width: 100%;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -265,7 +269,8 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
-  width: 648px;
+  max-width: 648px;
+  width: 100%;
   margin-top: 100px;
   margin-bottom: 0;
   box-sizing: border-box;
