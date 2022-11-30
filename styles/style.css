@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: Arial, 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .header {
@@ -21,7 +21,7 @@
   align-items: center;
   align-self: start;
   flex-direction: row;
-  z-index: -1;
+  z-index: 0;
 }
 
 .logo {
@@ -241,7 +241,7 @@
   display: flex;
   position: relative;
   background-color: #f2f2f2;
-  z-index: -2;
+  z-index: 0;
   height: 890px;
   flex-direction: column;
   align-items: center;
@@ -296,7 +296,7 @@
   box-sizing: border-box;
   overflow: hidden;
   position: relative;
-  z-index: -2;
+  z-index: 0;
 }
 
 .section-title_theme_dark {
