@@ -27,7 +27,6 @@
 .logo {
   width: 228px;
   height: 32px;
-  /* background-color: red; */
 }
 
 .logo_place_header {
@@ -39,8 +38,6 @@
 
 .header__title {
   margin: 0;
-  display: flex;
-  align-self: center;
   max-width: 730px;
   width: 100%;
   line-height: 96px;
@@ -113,8 +110,6 @@
 
 .two-columns__brief {
   margin: 0;
-  display: flex;
-  justify-content: flex-start;
   max-width: 175px;
   width: 100%;
   line-height: 1.2;
@@ -215,7 +210,6 @@
 
 .table__heading {
   margin: 0;
-  display: flex;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -226,7 +220,6 @@
 
 .table__text {
   margin: 0;
-  display: flex;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
@@ -376,8 +369,6 @@
 }
 
 .footer__column_content_info {
-  display: flex;
-  flex-direction: column;
   color: white;
   line-height: 30px;
   font-size: 18px;
@@ -386,8 +377,6 @@
 
 .footer__column-heading {
   margin: 0;
-  display: flex;
-  flex-direction: column;
   color: white;
   line-height: 30px;
   font-size: 18px;
