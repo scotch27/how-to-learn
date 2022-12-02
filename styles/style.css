@@ -304,7 +304,6 @@
   width: 877px;
   height: 877px;
   right: -210px;
-  bottom: 90px;
   top: 0px;
   z-index: -1;
 }
@@ -412,6 +411,7 @@
   padding: 0;
   margin-top: 20px;
   margin-bottom: 16px;
+  list-style: none;
 }
 
 .footer__column-link {
@@ -420,7 +420,6 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  list-style: none;
   color: white;
   text-decoration: none;
 }
