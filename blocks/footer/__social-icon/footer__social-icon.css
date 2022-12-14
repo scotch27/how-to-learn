@@ -1,6 +1,8 @@
-.footer__column_content_social {
+.footer__social-icon {
     color: white;
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
+    text-decoration: none;
+    padding-right: 10px;
   }
