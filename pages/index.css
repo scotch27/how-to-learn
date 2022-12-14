@@ -47,3 +47,6 @@
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__social/list__social.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
