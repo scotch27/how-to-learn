@@ -11,5 +11,6 @@
     align-self: start;
     flex-direction: row;
     z-index: 0;
+    overflow: hidden;
   }
   
