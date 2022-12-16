@@ -1,0 +1,14 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 920px;
+    padding-left: 0px;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    border: 1px solid red;
+  }
