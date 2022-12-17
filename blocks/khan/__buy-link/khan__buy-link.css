@@ -4,4 +4,9 @@
     font-size: 30px;
     font-weight: normal;
     color: #2f80ed;
+    transition: opasity 1s linear;
+}
+
+.khan__buy-link:hover {
+opacity: 0.5;
 }
