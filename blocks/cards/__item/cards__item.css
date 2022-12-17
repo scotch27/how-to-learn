@@ -3,8 +3,6 @@
     flex-direction: column;
     width: 240px;
     align-items: center;
-    margin-bottom: 60px;
-    margin-right: 100px;
-    border: 1px solid red;
+    margin-top: 60px;
     box-sizing: border-box;
 }
