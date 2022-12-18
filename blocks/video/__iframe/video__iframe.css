@@ -2,4 +2,9 @@
     width: 513px;
     height: 316px;
     margin-right: 20px;
+    border: 0;
+}
+
+.video__iframe:not(:last-child) {
+    margin-right: 20px;
 }
